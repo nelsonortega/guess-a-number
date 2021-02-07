@@ -1,12 +1,13 @@
 import React from 'react'
-import { SafeAreaView, StyleSheet, Text, StatusBar } from 'react-native'
+import Header from './components/Header'
+import { SafeAreaView, StyleSheet, StatusBar } from 'react-native'
 
 const App = () => {
   return (
     <React.Fragment>
       <StatusBar barStyle={'light-content'}/>
       <SafeAreaView style={styles.screen}>
-        <Text>Welcome</Text>
+        <Header title="Guess a Number"/>
       </SafeAreaView>
     </React.Fragment>
   )
